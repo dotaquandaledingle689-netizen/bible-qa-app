@@ -9,6 +9,11 @@
 <meta name="apple-mobile-web-app-title" content="Bible Q&A">
 <meta name="theme-color" content="#101418">
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
+<script>
+if ("serviceWorker" in navigator) {
+  navigator.serviceWorker.register("sw.js");
+}
+</script>
 <title>Bible Q&A — Offline</title>
 <style>
 *{box-sizing:border-box;margin:0;padding:0}
